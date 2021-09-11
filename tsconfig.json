@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    // 目标代码（ts -> js(es5)）
+    "target": "esnext",
+    // 模块化开发标准方式
+    "module": "esnext",
+    // 严格模式
+    "strict": true,
+    "jsx": "preserve",
+    // 辅助导入
+    "importHelpers": true,
+    // node方式解析模块
+    "moduleResolution": "node",
+    // 跳过一些对库的类型检测
+    "skipLibCheck": true,
+    // es和commonjs规范混合使用
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    // 是否生成ts js映射文件
+    "sourceMap": true,
+    // 解析基本url
+    "baseUrl": ".",
+    // 指定具体解析使用的类型
+    "types": ["webpack-env"],
+    // 路径解析
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    // 可以指定在项目中使用的类型
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+, "src/service/index.ts", "src/vuex_hooks/index.ts", "src/vuex_hooks/useGetters.ts"  ],
+  "exclude": ["node_modules"]
+}
