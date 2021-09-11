@@ -1,4 +1,4 @@
-# vue3-ts-cms
+# cherry-vue3&typescript
 
 ## Project setup
 
