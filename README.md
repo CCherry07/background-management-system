@@ -1,4 +1,4 @@
-# cherry-vue3&typescript
+# cherry-vue3&typescript 后台管理系统
 
 ## Project setup
 
